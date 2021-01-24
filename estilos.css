@@ -1,0 +1,15 @@
+#grid {
+	display: flex;
+	flex-wrap: wrap;
+	height: 300px;
+	width: 700px;
+	margin: auto;
+}
+#grid img {
+	border: 1px solid gray;
+	box-sizing: border-box;
+	transition: all 0.5s;
+}
+#grid img:hover {
+	border: 1px solid blueviolet;
+}
